@@ -65,7 +65,7 @@ public class SumOddsRange {
         int num2 = s.nextInt();
 
         for (int i = num1; i <= num2; i++) {
-            if (i % 3 == 0) {
+            if (i % 2 != 0) {
                 suma += i;
             }
         }
