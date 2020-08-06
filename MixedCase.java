@@ -5,7 +5,7 @@ public class MixedCase {
 
     Scanner inp = new Scanner(System.in);
 
-    System.out.print("In: ");
+    System.out.print("In:");
 
     String s = inp.nextLine();
     String cad1 = "";
